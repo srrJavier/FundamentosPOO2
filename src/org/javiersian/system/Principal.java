@@ -7,6 +7,7 @@ import org.javiersian.model.Caballo;
 import org.javiersian.model.Tortuga;
 import org.javiersian.model.Gallina;
 import org.javiersian.model.Hamster;
+import org.javiersian.model.Huron;
 /**
  *
  * @author Javier Sian
@@ -56,11 +57,17 @@ public class Principal {
         System.out.println("Nombre de la Gallina: " + gallina1.getNombre());
         gallina1.ponerHuevos();
         
-         System.out.println("------Hamster------");
+        System.out.println("------Hamster------");
         Hamster hamster1 = new Hamster();
         hamster1.setNombre("Rusty");
         System.out.println("Nombre del Hamster: " + hamster1.getNombre());
         hamster1.correRueda();
+        
+        System.out.println("------Huron------");
+        Huron huron1 = new Huron();
+        huron1.setNombre("Loki");
+        System.out.println("Nombre del Huron: " + huron1.getNombre());
+        huron1.juega();
         
     }
       

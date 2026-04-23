@@ -4,7 +4,7 @@ public class Hamster extends Animal{
  private boolean cachetes;
     
     public void correRueda(){
-        System.out.println("El " + super.getNombre()+ " corre en la rueda que tiene");
+        System.out.println("El Hamster " + super.getNombre()+ " corre en la rueda que tiene");
     }
     public boolean getCachetes(){
         return this.cachetes;
