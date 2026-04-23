@@ -1,6 +1,7 @@
 package org.javiersian.system;
 import org.javiersian.model.Perro;
 import org.javiersian.model.Conejo;
+import org.javiersian.model.Gato;
 /**
  *
  * @author Javier Sian
@@ -17,8 +18,14 @@ public class Principal {
         System.out.println("------Conejo------");
         Conejo conejo1 = new Conejo();
         conejo1.setNombre("Snowball");
-        System.out.println("Nombre del conejo; " + conejo1.getNombre());
+        System.out.println("Nombre del conejo: " + conejo1.getNombre());
         conejo1.comerZanahoria();
+        
+        System.out.println("------Gato------");
+        Gato gato1 = new Gato();
+         conejo1.setNombre("Pelusa");
+        System.out.println("Nombre del gato: " + gato1.getNombre());
+        gato1.arañazo();
     }
       
 }
