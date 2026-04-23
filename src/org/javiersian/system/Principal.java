@@ -4,6 +4,7 @@ import org.javiersian.model.Conejo;
 import org.javiersian.model.Gato;
 import org.javiersian.model.Pajaro;
 import org.javiersian.model.Caballo;
+import org.javiersian.model.Tortuga;
 /**
  *
  * @author Javier Sian
@@ -41,6 +42,11 @@ public class Principal {
         System.out.println("Nombre del Caballo: " + caballo1.getNombre());
         caballo1.llevaCarroza();
        
+        System.out.println("------Tortuga------");
+        Tortuga tortuga1 = new Tortuga();
+        tortuga1.setNombre("Donatello");
+        System.out.println("Nombre de la Tortuga: " + tortuga1.getNombre());
+        tortuga1.Escondite();
     }
       
 }
