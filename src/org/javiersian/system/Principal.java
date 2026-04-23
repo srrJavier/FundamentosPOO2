@@ -3,6 +3,7 @@ import org.javiersian.model.Perro;
 import org.javiersian.model.Conejo;
 import org.javiersian.model.Gato;
 import org.javiersian.model.Pajaro;
+import org.javiersian.model.Caballo;
 /**
  *
  * @author Javier Sian
@@ -10,7 +11,7 @@ import org.javiersian.model.Pajaro;
 public class Principal {
     public static void main(String[] args) {
         System.out.println("Hola mundo estoy en Kinal");
-        System.out.println("------PERRO------");
+        System.out.println("------Perro------");
         Perro perro1 = new Perro();
         perro1.setNombre("Max");
         System.out.println("El nombre del perro: " + perro1.getNombre());
@@ -34,7 +35,12 @@ public class Principal {
         System.out.println("Nombre del Pajaro: " + pajaro1.getNombre());
         pajaro1.copiarFrases();
        
-        
+        System.out.println("------Caballo------");
+        Caballo caballo1 = new Caballo();
+        caballo1.setNombre("Aquiles");
+        System.out.println("Nombre del Caballo: " + caballo1.getNombre());
+        caballo1.llevaCarroza();
+       
     }
       
 }
