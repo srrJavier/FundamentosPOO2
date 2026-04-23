@@ -4,7 +4,7 @@ public class Huron extends Animal{
     private boolean trucos;
     
     public void juega(){
-        System.out.println("El Huron " + super.getNombre()+ "juega por toda la casa");
+        System.out.println("El Huron " + super.getNombre()+ " juega por toda la casa");
     }
     public boolean getTrucos(){
         return this.trucos;

@@ -8,6 +8,7 @@ import org.javiersian.model.Tortuga;
 import org.javiersian.model.Gallina;
 import org.javiersian.model.Hamster;
 import org.javiersian.model.Huron;
+import org.javiersian.model.Cerdos;
 /**
  *
  * @author Javier Sian
@@ -68,6 +69,12 @@ public class Principal {
         huron1.setNombre("Loki");
         System.out.println("Nombre del Huron: " + huron1.getNombre());
         huron1.juega();
+        
+         System.out.println("------Cerdo------");
+        Cerdos cerdo1 = new Cerdos();
+        cerdo1.setNombre("Porky");
+        System.out.println("Nombre del Cerdo: " + cerdo1.getNombre());
+        cerdo1.juegaEnLodo();
         
     }
       
